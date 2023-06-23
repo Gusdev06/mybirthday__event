@@ -1,0 +1,27 @@
+@use 'hero';
+@use 'content';
+@use 'infos';
+@use 'variables';
+@use 'my-canvas';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #f5f3f3;
+    font-family: 'Bagel Fat One', cursive;
+    background: rgb(143, 67, 67);
+
+
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
